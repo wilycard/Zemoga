@@ -1,0 +1,11 @@
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\bin\Debug\netcoreapp2.0\WSBankTransactions.deps.json
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\bin\Debug\netcoreapp2.0\WSBankTransactions.runtimeconfig.json
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\bin\Debug\netcoreapp2.0\WSBankTransactions.runtimeconfig.dev.json
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\bin\Debug\netcoreapp2.0\WSBankTransactions.dll
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\bin\Debug\netcoreapp2.0\WSBankTransactions.pdb
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\obj\Debug\netcoreapp2.0\WSBankTransactions.csprojResolveAssemblyReference.cache
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\obj\Debug\netcoreapp2.0\WSBankTransactions.csproj.CoreCompileInputs.cache
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\obj\Debug\netcoreapp2.0\WSBankTransactions.AssemblyInfoInputs.cache
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\obj\Debug\netcoreapp2.0\WSBankTransactions.AssemblyInfo.cs
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\obj\Debug\netcoreapp2.0\WSBankTransactions.dll
+D:\Proyectos\Zemoga\WSBankTransactions\WSBankTransactions\obj\Debug\netcoreapp2.0\WSBankTransactions.pdb

@@ -1,0 +1,131 @@
+﻿@model IEnumerable<MVCBankTransactions.Models.Transaction>
+
+    @{
+        ViewData["Title"] = "Index";
+    }
+
+    <h2>Index</h2>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <form asp-action="Index" method="get">
+        <div class="form-actions no-color">
+            <p>
+                Find by Type: 
+                <select name="searchType">
+                    <option value="">Select a value</option>
+                    <option value="CASH_IN">CASH_IN</option>
+                    <option value="PAYMENT">PAYMENT</option>
+                    <option value="TRANSFER">TRANSFER</option>
+                    <option value="CASH_OUT">CASH_OUT</option>
+                    <option value="DEBIT">DEBIT</option>
+                </select><br/>
+                Find by nameDest:
+                <input name="searchNameDest" /><br />
+                Find by isFraud:
+                <select name="searchIsFraud">
+                    <option value="">Select a value</option>
+                    <option value="1">True</option>
+                    <option value="0">False</option>
+                </select><br />
+                Find by step: 
+                <input name="searchStep" />
+                    <br /><br />
+
+                <input type="submit" value="Search" class="btn btn-default" /> |
+                <a asp-action="Index">Back to Full List</a>
+            </p>
+        </div>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Step)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Type)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Amount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NameOrig)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OldbalanceOrig)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewbalanceOrig)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NameDest)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OldbalanceDest)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NewbalanceDest)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IsFraud)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IsFlaggedFraud)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Step)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Type)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NameOrig)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OldbalanceOrig)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NewbalanceOrig)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NameDest)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OldbalanceDest)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NewbalanceDest)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsFraud)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsFlaggedFraud)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

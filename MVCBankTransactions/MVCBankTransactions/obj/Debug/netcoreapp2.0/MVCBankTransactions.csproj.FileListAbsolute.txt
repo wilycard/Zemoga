@@ -1,0 +1,12 @@
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\bin\Debug\netcoreapp2.0\MVCBankTransactions.deps.json
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\bin\Debug\netcoreapp2.0\MVCBankTransactions.runtimeconfig.json
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\bin\Debug\netcoreapp2.0\MVCBankTransactions.runtimeconfig.dev.json
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\bin\Debug\netcoreapp2.0\MVCBankTransactions.dll
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\bin\Debug\netcoreapp2.0\MVCBankTransactions.pdb
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\obj\Debug\netcoreapp2.0\MVCBankTransactions.csprojResolveAssemblyReference.cache
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\obj\Debug\netcoreapp2.0\MVCBankTransactions.csproj.CoreCompileInputs.cache
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\obj\Debug\netcoreapp2.0\MVCBankTransactions.AssemblyInfoInputs.cache
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\obj\Debug\netcoreapp2.0\MVCBankTransactions.AssemblyInfo.cs
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\obj\Debug\netcoreapp2.0\MVCBankTransactions.dll
+D:\Proyectos\Zemoga\MVCBankTransactions\MVCBankTransactions\obj\Debug\netcoreapp2.0\MVCBankTransactions.pdb

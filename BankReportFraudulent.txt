@@ -1,0 +1,3 @@
+type|Transactions|Amount
+TRANSFER|249|165353916,4
+CASH_OUT|128|22832345,52
